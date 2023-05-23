@@ -35,7 +35,7 @@ body {
     background-color: black;
     opacity: .5;
     margin-top: 50px;
-    padding: 0 100px 0 100px;
+    padding: 5px 100px 5px 100px;
 
     
 }
@@ -52,8 +52,19 @@ body {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     margin: 5px;
     padding: 0px 50px 20px 20px;
+    background-color:whitesmoke;
+   
+}
 
+#form {
+    padding: 5px;
 
+}
+
+input:focus, textarea:focus {
+    box-shadow:2px 2px 2px 2px blueviolet;
+    
+    
 }
 
 .intro {
